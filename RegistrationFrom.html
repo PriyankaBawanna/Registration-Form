@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <title>
+            Registration Form 
+        </title>
+        <link rel= "stylesheet" href = "styel.css">
+    </head>
+    <body>
+        
+        <form>
+        <div class="Registration-From">
+        <h1> Register Today </h1>
+         <p> Fill in the data bellow.</p>
+         <input type="Full Name " class="input-box" placeholder="Full Name">
+         <input type="email " class="input-box" placeholder="email">
+         <br>
+
+        <input type="text" list="Function" class="input-box" placeholder="Function" />
+        <datalist id="Function">
+          <option>Volvo</option>
+          <option>Saab</option>
+          <option>Mercedes</option>
+          <option>Audi</option>
+        </datalist>
+
+
+          <br>
+          <input type="password" class="input-box" placeholder="password">
+          <br>  
+          <div>
+          <label class="radio">
+
+            <label>Gender : </lable><input type="radio" name="gender" value="Male">
+            <span>Male</span>
+          </label>
+          <label class="radio">
+            <input type="radio" name="gender" value="Female">
+            <span>Female</span>
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="gender" value="Secret">
+            <span>Secret</span>
+          </label>  
+        </div>
+         <br> 
+         
+        <div class="checkbox-example">
+        <input type="checkbox" value="1" id="checkboxOneInput"/> <label>I confirm that all the data are correct </label>
+        <label for="checkboxOneInput"></label>
+      </div> 
+      <br>
+          <button type ="Register" class="BTN">Register</button>
+        </div>
+
+    </form>
+     
+
+    </body>
+</html>

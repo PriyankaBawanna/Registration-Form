@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: royalblue;
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+  border-color: white;
+}
+.Registration-From {
+  width: 500px;
+
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  background: cornflowerblue;
+  border: white;
+
+  border-width: 5 px;
+  border-color: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+
+  padding: 20px;
+  margin: 8% auto;
+}
+
+.Registration-From {
+  color: white;
+  margin-bottom: 30px;
+  border-width: 2 px;
+  border-color: white;
+}
+.input-box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px 0;
+  width: 100%;
+  border: 2px solid #999;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.BTN {
+  background-color: royalblue;
+  color: white;
+  padding: 8px 12px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+label.radio {
+  cursor: pointer;
+}
+label.radio input {
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+label.radio span {
+  padding: 2px 8px;
+  border: 2px solid #eee;
+  /*display: inline-block;*/
+}
+label.radio input:checked + span {
+  border-color: #009ba2;
+}
