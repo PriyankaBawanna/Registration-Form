@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I Frame</title>
+  </head>
+  <body>
+    <iframe src="Assignment4.html" width="100%" height="100%"></iframe>
+
+    <!--name and my frame attribute-->
+    <a href="Assignment4.html" target="MyFrame"> Table tag pratice</a>
+    <br /><br />
+    <iframe width="100%" height="100%" name="MyFrame"></iframe>
+    <br />
+    <!-- srcdoc source Document-->
+    <iframe
+      width="100%"
+      height="100%"
+      srcdoc=" <h2> Read HTML CSS Javascript </h2> "
+    ></iframe>
+    <!--sandbox attribute-->
+    <iframe
+      src="Gallery.html"
+      width="100%"
+      height="100%"
+      sandbox="allow-same-origin"
+    ></iframe>
+    <!--Only one sandbox work at time -->
+    <iframe
+      src="Gallery.html"
+      width="100%"
+      height="100%"
+      sandbox="allow-scripts"
+      sandbox="allow-same-origin"
+    ></iframe>
+
+    <iframe
+      src="Fromforiframe.html"
+      width="100%"
+      height="100%"
+      sandbox="allow-forms"
+    ></iframe>
+    <a href="Assignment4.html" target="MyFrame"> Table tag pratice</a>
+  </body>
+</html>
