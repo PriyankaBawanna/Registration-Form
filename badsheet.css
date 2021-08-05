@@ -1,0 +1,17 @@
+body {
+  padding: 0px;
+}
+ul {
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+ul li {
+  display: inline-block;
+  list-style-type: square;
+
+  padding: 100px;
+  margin: 100px;
+  width: 80px;
+}

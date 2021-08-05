@@ -1,0 +1,39 @@
+body {
+  background-color: white;
+  padding: 20px;
+}
+ul li {
+  display: inline-block;
+  list-style-type: square;
+
+  padding: 100px;
+  margin: 200px;
+  width: 70px;
+}
+
+.heading1 {
+  color: crimson;
+  font-size: 40px;
+}
+.topnav2 input[type="text"] {
+  font-size: 17px;
+  width: 80%;
+  border: salmon;
+  padding: 12px 20px;
+  border-style: solid;
+}
+.topnav2 button {
+  background-color: salmon;
+  border-style: solid;
+  width: 10%;
+  padding: 12px 20px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: large;
+}
+img {
+  border-radius: 8px;
+}
